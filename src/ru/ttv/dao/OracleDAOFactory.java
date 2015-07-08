@@ -30,71 +30,84 @@ public class OracleDAOFactory extends DAOFactory {
 
     @Override
     public CustomerDAO getCustomerDAO() {
-        return null;
+        return new OracleCustomerDAO();
     }
 
     @Override
     public CarDAO getCarDAO() {
-        return null;
+
+        return new OracleCarDAO();
     }
 
     @Override
     public CarModelsDAO getCarModelsDAO() {
-        return null;
+
+        return new OracleCarModelsDAO();
     }
 
     @Override
     public UserDAO getUserDAO() {
-        return null;
+
+        return new OracleUserDAO();
     }
 
     @Override
     public UserPrivilegesDAO getUserPrivilegesDAO() {
-        return null;
+
+        return new OracleUserPrivilegesDAO();
     }
 
     @Override
     public StaffDAO getStaffDAO() {
-        return null;
+
+        return new OracleStaffDAO();
     }
 
     @Override
     public ContactHistoryDAO getContactHistoryDAO() {
-        return null;
+
+        return new OracleContactHistoryDAO();
     }
 
     @Override
     public JobDAO getJobDAO() {
-        return null;
+
+        return new OracleJobDAO();
     }
 
     @Override
     public GoodsDAO getGoodsDAO() {
-        return null;
+
+        return new OracleGoodsDAO();
     }
 
     @Override
     public RepairStateDAO getRepairStateDAO() {
-        return null;
+
+        return new OracleRepairStateDAO();
     }
 
     @Override
     public RepairDAO getRepairDAO() {
-        return null;
+
+        return new OracleRepairDAO();
     }
 
     @Override
     public RepairJobDAO getRepairJobDAO() {
-        return null;
+
+        return new OracleRepairJobDAO();
     }
 
     @Override
     public RepairGoodsDAO getRepairGoodsDAO() {
-        return null;
+
+        return new OracleRepairGoodsDAO();
     }
 
     @Override
     public RepairJobEmployeeDAO getRepairJobEmployeeDAO() {
+
         return null;
     }
 }
