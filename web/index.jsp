@@ -7,14 +7,28 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
   <head>
+    <link type="text/css" href="style/style.css" rel="stylesheet" />
   </head>
   <body>
-      <form action="pages/main.jsp" method="post">
-        <input type="text" name="username" />
-        <input type="submit" value="Войти"/>
-      </form>
-    <h1>Тест! </h1>
+    <div class="wrapper">
+      <div class="main">
+        <div class="header">
+          <h2>Автосервис</h2>
+          <h3>Пожалуйста, авторизуйтесь</h3>
+        </div>
+        <div>
+          <form class="login" action="pages/main.jsp" method="post">
+            <label class="label" for="username">Имя пользователя</label>
+            <div><input class="input" type="text" name="username" /></div>
+            <label class="label" for="password">Пароль</label>
+            <div><input class="input" type="password" name="password"/></div>
+            <div><input class="button" type="submit" value="Войти"/></div>
+          </form>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

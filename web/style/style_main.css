@@ -1,0 +1,12 @@
+
+.catalogs {
+    width: 200px;
+    border: solid blueviolet 2px;
+    border-radius: 5px;
+}
+
+.documents{
+    width: 200px;
+    border: solid blueviolet 2px;
+    border-radius: 5px;
+}

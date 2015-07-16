@@ -1,0 +1,42 @@
+body {
+    background-color: aliceblue;
+}
+
+.wrapper {
+
+}
+
+.main {
+    font-family: Helvetica;
+    text-align: center;
+    margin: 50px auto 10px;
+    width: 400px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid aqua;
+}
+
+.input {
+    border: 2px solid chartreuse;
+    background-color: beige;
+}
+
+.button {
+    border: 2px solid chartreuse;
+    background-color: beige;
+    margin-top: 10px;
+    text-align: center;
+
+
+}
+
+.label {
+    margin-top: 10px;
+    display: block;
+
+}
+
+.login {
+
+}
+

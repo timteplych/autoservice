@@ -15,15 +15,17 @@ public class OracleDAOFactory extends DAOFactory {
     public static Connection connection = null;
 
     public static Connection createConnection(){
-        try {
-            Class.forName(driver);
-            connection = DriverManager.getConnection(url, username, password);
-            System.out.println("connecting: " + url);
+        if (connection == null){
+            try {
+                Class.forName(driver);
+                connection = DriverManager.getConnection(url, username, password);
+                System.out.println("connecting: " + url);
 
-        }catch (ClassNotFoundException e){
+            }catch (ClassNotFoundException e){
 
-        }catch (SQLException e){
+            }catch (SQLException e){
 
+            }
         }
         return connection;
     }

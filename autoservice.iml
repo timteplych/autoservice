@@ -38,5 +38,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="jsp-api" level="project" />
+    <orderEntry type="library" name="ojdbc7" level="project" />
   </component>
 </module>
