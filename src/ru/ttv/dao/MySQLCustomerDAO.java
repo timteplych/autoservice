@@ -20,7 +20,7 @@ public class MySQLCustomerDAO implements CustomerDAO {
     }
 
     @Override
-    public Customer findCustomer() {
+    public Customer findCustomer(String id, Connection conn) {
         return new Customer();
     }
 

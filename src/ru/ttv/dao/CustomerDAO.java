@@ -13,7 +13,7 @@ import java.util.Map;
 public interface CustomerDAO {
     public int insertCustomer();
     public boolean deleteCustomer();
-    public Customer findCustomer();
+    public Customer findCustomer(String id, Connection conn);
     public boolean updateCustomer();
     public Map<Integer,String> getCustomerList(Connection conn);
     //public RowSet selectCustomersRS();

@@ -9,13 +9,13 @@
 <div class="catalogs">
   <h3>Справочники</h3>
   <ul>
-    <li><a href="../pages/catalogs.jsp">Покупатели</a></li>
-    <li><a href="../pages/catalogs.jsp">Автомобили</a></li>
-    <li><a href="../pages/catalogs.jsp">Модели автомобилей</a></li>
-    <li><a href="../pages/catalogs.jsp">Товары</a></li>
-    <li><a href="../pages/catalogs.jsp">Автоработы</a></li>
-    <li><a href="../pages/catalogs.jsp">Сотрудники</a></li>
-    <li><a href="../pages/catalogs.jsp">Пользователи</a></li>
+    <li><a href="../pages/catalogs.jsp?catalog=customers">Покупатели</a></li>
+    <li><a href="../pages/catalogs.jsp?catalog=cars">Автомобили</a></li>
+    <li><a href="../pages/catalogs.jsp?catalog=models">Модели автомобилей</a></li>
+    <li><a href="../pages/catalogs.jsp?catalog=goods">Товары</a></li>
+    <li><a href="../pages/catalogs.jsp?catalog=jobs">Автоработы</a></li>
+    <li><a href="../pages/catalogs.jsp?catalog=staff">Сотрудники</a></li>
+    <li><a href="../pages/catalogs.jsp?catalog=users">Пользователи</a></li>
   </ul>
 </div>
 

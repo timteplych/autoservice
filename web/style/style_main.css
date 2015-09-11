@@ -10,3 +10,29 @@
     border: solid blueviolet 2px;
     border-radius: 5px;
 }
+
+.leftsidebar {
+    width: 200px;
+    float: left;
+}
+
+.center-wrapper {
+    float: left;
+    margin-left: 20px;
+}
+
+.entity-wrapper {
+    width: 400px;
+}
+
+.entity-field {
+    margin-top: 10px;
+}
+
+.entity-input {
+    width: 400px;
+}
+
+.entitylist{
+
+}
